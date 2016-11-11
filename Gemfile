@@ -16,8 +16,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 
 group :development, :test do
-  gem 'sqlite3', '~> 1.3', '>= 1.3.12'
+  
   gem 'byebug',  '9.0.0', platform: :mri
+  gem 'sqlite3', '~> 1.3', '>= 1.3.12'
 end
 
 group :development do
@@ -25,6 +26,7 @@ group :development do
   gem 'listen',                '3.0.8'
   gem 'spring'
   gem 'spring-watcher-listen', '2.0.0'
+
 end
 
 group :production do
